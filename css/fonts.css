@@ -1,0 +1,15 @@
+h3 {
+    /* font-family: 'Lato', sans-serif; */
+    color:  #383737;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 800;
+    text-align: left;
+}
+
+span {
+    /* font-family: 'Lato', sans-serif; */
+    color:  #a2a2a2;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 200;
+    text-align: left;
+}
