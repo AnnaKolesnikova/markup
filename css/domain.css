@@ -1,0 +1,35 @@
+.domain {
+    position: relative;
+    text-align: center;
+}
+
+.domain h3 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+    width: 50vw;
+    border-collapse: separate;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #cbcbcb;
+}
+
+td:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.upper-row td {
+    padding: 30px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.down-row td {
+    padding: 26px 40px;
+}
+
+.choose .request {
+    text-align: left;
+    color:#868686;
+}

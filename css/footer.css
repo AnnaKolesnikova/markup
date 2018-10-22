@@ -1,0 +1,32 @@
+footer {
+    padding: 0 200px;
+    background: #2a2a2a;
+}
+
+.footer-heading {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 40px auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-heading nav {
+    color: #686868;
+    text-transform: uppercase;
+}
+
+.footer-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 400px;
+}

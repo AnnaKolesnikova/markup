@@ -8,6 +8,8 @@
     <title>Ghost Host</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -35,28 +37,59 @@
             <a class="auth-link" href="#">register</a>
         </div>
     </section>
-    <section id="domain">
-        <h3>Would you like to buy a domain?</h3>
+    <section id="domain" class="domain">
+        <h3>Would you like to buy a new domain?</h3>
         <span>Lorem ipsum dolor sit amet_ consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum. id
             molestier</span>
+        <table class="choose" cellspacing="10">
+            <tr>
+                <td>www.</td>
+                <td class="request"><b>What do you want?</b></td>
+                <td>
+                    <div class="dropdown-content">
+                        <p>.com <i class="fa fa-angle-down fa-1" aria-hidden="true"></i></p>
+                        <!-- &#709; -->
+                        <!-- <p>.net</p> -->
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="10" cellpadding="10">
+            <tr class="upper-row">
+                <td>.COM</td>
+                <td>1 Year</td>
+                <td>$9.00 USD</td>
+                <td>Transfer Price No</td>
+            </tr>
+            <tr class="down-row">
+                <td>.NET</td>
+                <td>1 Year</td>
+                <td>$9.00 USD</td>
+                <td>Transfer Price No</td>
+            </tr>
+        </table>
     </section>
-    <section id="hosting">
+    <section id="hosting" class="half-background-img">
         <div class="hosting-package basic-package">
+            <img src="./img/basic-elipse.png" alt="basic">
             <span class="package-title">basic package</span>
         </div>
         <div class="hosting-package normal-package">
+            <img src="./img/normal-elipse.png" alt="normal">
             <span class="package-title">normal package</span>
         </div>
         <div class="hosting-package big-package">
+            <img src="./img/big-elipse.png" alt="big">
             <span class="package-title">big package</span>
         </div>
         <div class="hosting-package biggest-package">
+            <img src="./img/biggest-elipse.png" alt="biggest">
             <span class="package-title">biggest package</span>
         </div>
     </section>
     <section id="about-us">
         <div>
-            <h2>About us</h2>
+            <h2 class="about-us"><b>About</b> Us</h2>
             <p></p>
         </div>
         <div class="team">
@@ -64,7 +97,44 @@
         </div>
     </section>
     <section id="services"></section>
-    <footer id="support"></footer>
+    <footer id="support">
+        <div class="footer-heading">
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo-footer.png"></a>
+            </div>
+            <nav>
+                <a href="#">home</a>
+                <a href="#about-us">about us</a>
+                <a href="#blog">blog</a>
+                <a href="#policy">policy</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+        <div class="footer-body">
+            <div class="footer-column">
+                <span>Lorem ipsum dolor sit amet_ consecteteeseur dipiscing elit. Donec mollic commodoeesene que, non
+                    commodo rusis volutpat vel.</span>
+                <span>Design by <b>Mert Can Eyriyer</b></span>
+            </div>
+            <div class="footer-column">
+                <div>
+                    <ul class="columns" data-columns="2">
+                        <li>> Support</li>
+                        <li>> Account</li>
+                        <li>> Product Catalog</li>
+                        <li>> Shortcodes</li>
+                        <li>> Site Map</li>
+                        <li>> Whois Search</li>
+                        <li>> Web Mail</li>
+                        <li>> Find Domain</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-column">
+                <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0000-0000-0000">0000-0000-0000</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
