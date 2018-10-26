@@ -1,5 +1,5 @@
 footer {
-    padding: 0 200px 20px;
+    /* padding: 0 200px 20px; */
     background: #2a2a2a;
 }
 
@@ -12,7 +12,7 @@ footer {
     grid-template-columns: 45% 55%;
     justify-content: flex-start;
     align-content: center;
-    margin: 0 auto 40px;
+    margin: 0 10vw 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -39,9 +39,10 @@ footer {
 }
 
 .footer-body {
+    margin: 0 10vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer-column {

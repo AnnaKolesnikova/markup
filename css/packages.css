@@ -1,8 +1,8 @@
 .half-background-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 0 180px;
+    justify-content: space-between;
+    padding: 0 10vw;
     background: url("../img/packages.jpg") no-repeat;
     background-size: 100%;
     min-height: 400px; 

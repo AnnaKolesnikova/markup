@@ -29,7 +29,57 @@ td:not(:last-child) {
     padding: 26px 40px;
 }
 
+.choose {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    align-items: center;
+    width: 50vw;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    text-align: left;
+    color: #868686;
+}
+
+.choose > div {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.choose p,
+.choose b {
+    padding-left: 15px;
+}
+
+#domain > div > div:nth-child(3) {
+    border-right: none;
+}
+
 .choose .request {
     text-align: left;
     color:#868686;
+}
+
+/* .custom-select {
+    
+} */
+
+select {
+    margin-left: 15px;
+    background: #fff;
+    border: none;
+    outline: none;
+    color:#868686;
+    font-size: 16px;
+}
+
+option {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    color:#868686;
+    font-size: 16px;
+}
+
+option:hover {
+    background: yellow;
 }
